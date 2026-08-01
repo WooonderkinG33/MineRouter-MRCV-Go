@@ -1,4 +1,4 @@
-module minerouter.dev/mrcv
+module github.com/WooonderkinG33/MineRouter-MRCV-Go
 
 go 1.22
 

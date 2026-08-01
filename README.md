@@ -57,7 +57,7 @@ Cryptographically bound to a device
 ## Установка
 
 ```sh
-go get minerouter.dev/mrcv
+go get github.com/WooonderkinG33/MineRouter-MRCV-Go
 ```
 
 Зависимость: только `golang.org/x/crypto` (официальная, Argon2id + XChaCha20).
@@ -65,7 +65,7 @@ go get minerouter.dev/mrcv
 ## Использование
 
 ```go
-import "minerouter.dev/mrcv"
+import "github.com/WooonderkinG33/MineRouter-MRCV-Go"
 
 // Открыть хранилище (создаст, если нет), привязанное к устройству.
 v, err := mrcv.New(mrcv.Config{Path: "storage.mrcv"})
